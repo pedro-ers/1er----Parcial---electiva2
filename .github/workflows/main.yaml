@@ -22,7 +22,7 @@ jobs:
         run: npm install --global surge
 
       - name: Desplegar sitio en Surge.sh
-        run: surge ./ https://mi-proyecto-ci-cd-123.surge.sh
+        run: surge ./ https://pedro-itla-parcial1.surge.sh
         env:
           SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
